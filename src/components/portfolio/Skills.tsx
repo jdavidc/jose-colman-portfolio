@@ -5,27 +5,27 @@ export const Skills = () => {
   const skillCategories = [
     {
       title: "Languages",
-      skills: ["Python", "Node.js", "Go", "Java", "TypeScript", "Rust", "C#"]
+      skills: ["Java", "JavaScript", "SQL"]
     },
     {
       title: "Frameworks",
-      skills: ["FastAPI", "Express.js", "Django", "Spring Boot", "Gin", "ASP.NET Core"]
+      skills: ["Spring Boot", "Angular", "Node.js", "Hibernate"]
     },
     {
       title: "Databases",
-      skills: ["PostgreSQL", "MongoDB", "Redis", "Elasticsearch", "InfluxDB", "Cassandra"]
+      skills: ["PostgreSQL", "Firebase", "Database Optimization"]
     },
     {
       title: "Cloud & DevOps",
-      skills: ["AWS", "Docker", "Kubernetes", "Terraform", "Jenkins", "GitHub Actions"]
+      skills: ["AWS", "Docker", "GIT", "CI/CD"]
     },
     {
-      title: "Message Queues",
-      skills: ["Apache Kafka", "RabbitMQ", "AWS SQS", "Redis Pub/Sub", "Apache Pulsar"]
+      title: "API Management",
+      skills: ["Apigee Edge", "REST APIs", "OAuth2", "API Security"]
     },
     {
-      title: "Monitoring",
-      skills: ["Prometheus", "Grafana", "ELK Stack", "DataDog", "New Relic", "Jaeger"]
+      title: "Methodologies",
+      skills: ["Agile", "Scrum", "Kanban", "Lean", "Extreme Programming"]
     }
   ];
 
@@ -37,7 +37,7 @@ export const Skills = () => {
             Technical Skills
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            A comprehensive toolkit for building modern, scalable backend systems
+            Specialized in Java, Spring Boot, and API management with proven expertise in building secure, high-performance systems
           </p>
         </div>
 
@@ -72,16 +72,16 @@ export const Skills = () => {
             {[
               "Microservices Architecture",
               "API Design & Development",
-              "System Design",
-              "Database Optimization",
-              "Caching Strategies",
-              "Load Balancing",
-              "Security Best Practices",
-              "Performance Tuning",
-              "CI/CD Pipelines",
-              "Containerization",
-              "Event-Driven Architecture",
-              "Distributed Systems"
+              "Fraud Detection Systems",
+              "Performance Optimization",
+              "Security Compliance",
+              "System Integration",
+              "Database Design",
+              "Mobile Backend Development",
+              "Team Leadership",
+              "Problem Solving",
+              "Agile Development",
+              "IT Infrastructure"
             ].map((expertise, index) => (
               <Badge 
                 key={index}

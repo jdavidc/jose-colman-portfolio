@@ -6,23 +6,23 @@ export const About = () => {
   const highlights = [
     {
       icon: Code,
-      title: "Clean Code",
-      description: "Writing maintainable, testable code following best practices and SOLID principles."
+      title: "Java & Spring Boot",
+      description: "Expert in Java ecosystem with deep knowledge of Spring Boot for building robust microservices."
     },
     {
       icon: Database,
-      title: "Data Architecture",
-      description: "Designing efficient database schemas and optimizing query performance at scale."
+      title: "API Development",
+      description: "Designing and implementing high-performance REST APIs with Apigee Edge proxy management."
     },
     {
       icon: Cloud,
-      title: "Cloud Native",
-      description: "Building distributed systems on AWS, GCP, and Azure with containerization and orchestration."
+      title: "Cloud & DevOps",
+      description: "Experience with AWS, Docker containerization, and agile development methodologies."
     },
     {
       icon: Zap,
-      title: "Performance",
-      description: "Optimizing system performance and ensuring high availability for mission-critical applications."
+      title: "Performance & Security",
+      description: "Optimizing system performance, fraud detection, and ensuring security compliance at scale."
     }
   ];
 
@@ -34,8 +34,8 @@ export const About = () => {
             About Me
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Passionate backend developer with 8+ years of experience building robust, 
-            scalable systems that power modern applications.
+            Senior Back-End Engineer with 10+ years of experience designing scalable microservices and APIs. 
+            Proven ability to build secure, high-performance systems that drive business results.
           </p>
         </div>
 
@@ -44,18 +44,19 @@ export const About = () => {
             <h3 className="text-2xl font-bold mb-6 text-foreground">My Journey</h3>
             <div className="space-y-4 text-muted-foreground">
               <p>
-                Started my career as a full-stack developer but quickly found my passion in 
-                backend systems and infrastructure. I love the challenge of designing systems 
-                that can handle millions of requests while maintaining reliability and performance.
+                Started as a System Administrator managing IT infrastructure and evolved into mobile development, 
+                eventually finding my passion in backend engineering and API development. I love the challenge of 
+                designing systems that handle high-volume transactions while maintaining security and performance.
               </p>
               <p>
-                Over the years, I've worked with startups and enterprise companies, helping them 
-                scale their infrastructure from prototype to production. My expertise spans from 
-                database optimization to microservices architecture and DevOps practices.
+                Throughout my career at companies like Willdom and EDGE Mobile Ideas, I've specialized in building 
+                fraud detection systems, e-commerce platforms, and API management solutions. My expertise spans 
+                Java, Spring Boot, microservices architecture, and API proxy management with Apigee Edge.
               </p>
               <p>
-                When I'm not coding, you'll find me contributing to open source projects, 
-                writing technical blogs, or exploring the latest developments in distributed systems.
+                When I'm not coding, you'll find me biking, exploring urban landscapes with my camera, 
+                experimenting in the kitchen, or playing videogames. I'm passionate about mentoring junior 
+                developers and continuously learning new technologies.
               </p>
             </div>
           </div>
@@ -89,16 +90,16 @@ export const About = () => {
         {/* Stats */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
           <div className="text-center">
-            <div className="text-3xl md:text-4xl font-bold text-primary mb-2">8+</div>
+            <div className="text-3xl md:text-4xl font-bold text-primary mb-2">10+</div>
             <div className="text-muted-foreground">Years Experience</div>
           </div>
           <div className="text-center">
-            <div className="text-3xl md:text-4xl font-bold text-primary mb-2">50+</div>
-            <div className="text-muted-foreground">Projects Delivered</div>
+            <div className="text-3xl md:text-4xl font-bold text-primary mb-2">500K+</div>
+            <div className="text-muted-foreground">Transactions/Day</div>
           </div>
           <div className="text-center">
-            <div className="text-3xl md:text-4xl font-bold text-primary mb-2">1M+</div>
-            <div className="text-muted-foreground">API Calls/Day</div>
+            <div className="text-3xl md:text-4xl font-bold text-primary mb-2">65%</div>
+            <div className="text-muted-foreground">Fraud Reduction</div>
           </div>
           <div className="text-center">
             <div className="text-3xl md:text-4xl font-bold text-primary mb-2">99.9%</div>

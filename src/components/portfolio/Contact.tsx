@@ -24,9 +24,9 @@ export const Contact = () => {
             <div>
               <h3 className="text-2xl font-bold mb-6 text-foreground">Get In Touch</h3>
               <p className="text-muted-foreground mb-8">
-                I'm always interested in discussing new opportunities, challenging projects, 
-                and innovative solutions. Whether you're a startup looking to build your MVP 
-                or an enterprise scaling your infrastructure, I'd love to hear from you.
+                I'm always interested in discussing new opportunities, challenging backend projects, 
+                and innovative API solutions. Whether you need expertise in fraud detection, 
+                e-commerce platforms, or scalable microservices, I'd love to hear from you.
               </p>
             </div>
 
@@ -38,7 +38,7 @@ export const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-foreground">Email</h4>
-                    <p className="text-muted-foreground">alex.johnson@example.com</p>
+                    <p className="text-muted-foreground">josedcolman@gmail.com</p>
                   </div>
                 </div>
               </Card>
@@ -50,7 +50,7 @@ export const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-foreground">Phone</h4>
-                    <p className="text-muted-foreground">+1 (555) 123-4567</p>
+                    <p className="text-muted-foreground">Available on request</p>
                   </div>
                 </div>
               </Card>
@@ -62,7 +62,7 @@ export const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-foreground">Location</h4>
-                    <p className="text-muted-foreground">San Francisco, CA</p>
+                    <p className="text-muted-foreground">Asunción, Paraguay</p>
                   </div>
                 </div>
               </Card>

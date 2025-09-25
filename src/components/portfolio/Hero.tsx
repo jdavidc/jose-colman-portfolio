@@ -16,14 +16,14 @@ export const Hero = () => {
       <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
         <div className="mb-8">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-accent bg-clip-text text-transparent animate-in slide-in-from-bottom-10 duration-1000">
-            Alex Johnson
+            José David Colmán
           </h1>
           <h2 className="text-2xl md:text-3xl text-muted-foreground mb-4 animate-in slide-in-from-bottom-10 duration-1000 delay-200">
-            Senior Backend Developer
+            Senior Back-End Engineer
           </h2>
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto animate-in slide-in-from-bottom-10 duration-1000 delay-300">
-            Building scalable, high-performance systems with modern technologies. 
-            Specialized in microservices, cloud architecture, and distributed systems.
+            10+ years of experience designing scalable microservices and APIs using Java, Spring Boot, and Apigee Edge. 
+            Specialized in fraud detection systems, e-commerce platforms, and high-performance backend solutions.
           </p>
         </div>
 
@@ -49,19 +49,23 @@ export const Hero = () => {
         {/* Social Links */}
         <div className="flex justify-center gap-6 animate-in slide-in-from-bottom-10 duration-1000 delay-700">
           <a 
-            href="#" 
+            href="https://www.github.com/jdavidc" 
+            target="_blank"
+            rel="noopener noreferrer"
             className="p-3 rounded-full border border-primary/30 hover:border-primary hover:bg-primary/10 hover:shadow-glow-primary transition-all duration-300 group"
           >
             <Github className="h-6 w-6 text-muted-foreground group-hover:text-primary transition-colors" />
           </a>
           <a 
-            href="#" 
+            href="https://www.linkedin.com/in/josedcolman" 
+            target="_blank"
+            rel="noopener noreferrer"
             className="p-3 rounded-full border border-primary/30 hover:border-primary hover:bg-primary/10 hover:shadow-glow-primary transition-all duration-300 group"
           >
             <Linkedin className="h-6 w-6 text-muted-foreground group-hover:text-primary transition-colors" />
           </a>
           <a 
-            href="#" 
+            href="mailto:josedcolman@gmail.com" 
             className="p-3 rounded-full border border-primary/30 hover:border-primary hover:bg-primary/10 hover:shadow-glow-primary transition-all duration-300 group"
           >
             <Mail className="h-6 w-6 text-muted-foreground group-hover:text-primary transition-colors" />

@@ -6,36 +6,36 @@ import { ExternalLink, Github, Database, Cloud, Zap, Shield } from "lucide-react
 export const Projects = () => {
   const projects = [
     {
-      title: "E-Commerce Microservices Platform",
-      description: "Built a highly scalable e-commerce backend serving 100K+ daily active users. Implemented event-driven architecture with CQRS pattern, achieving 99.9% uptime and sub-200ms response times.",
-      icon: Database,
-      technologies: ["Node.js", "PostgreSQL", "Redis", "Apache Kafka", "Docker", "AWS"],
-      highlights: ["50% reduction in response time", "Handles 1M+ requests/day", "Auto-scaling infrastructure"],
-      type: "Enterprise"
-    },
-    {
-      title: "Real-time Analytics Engine",
-      description: "Developed a real-time data processing pipeline handling 10TB+ of data daily. Built custom aggregation algorithms and implemented streaming data architecture with automatic anomaly detection.",
-      icon: Zap,
-      technologies: ["Python", "Apache Kafka", "InfluxDB", "Elasticsearch", "Kubernetes"],
-      highlights: ["10TB+ data processed daily", "Real-time insights", "ML-powered anomalies"],
-      type: "Data Platform"
-    },
-    {
-      title: "Financial API Gateway",
-      description: "Architected secure API gateway for fintech startup handling sensitive financial transactions. Implemented advanced rate limiting, fraud detection, and PCI DSS compliance.",
+      title: "Fraud Detection System",
+      description: "Led implementation of a fraud detection system that reduced manual fraud case reviews by 65%, decreased customer friction by 30%, and boosted participating banks' digital transaction revenue by 15%.",
       icon: Shield,
-      technologies: ["Go", "PostgreSQL", "Redis", "JWT", "OAuth2", "AWS Lambda"],
-      highlights: ["PCI DSS compliant", "Advanced fraud detection", "99.99% uptime SLA"],
+      technologies: ["Java", "Spring Boot", "PostgreSQL", "Machine Learning", "Agile"],
+      highlights: ["65% reduction in manual reviews", "30% decrease in customer friction", "15% revenue boost"],
       type: "Fintech"
     },
     {
-      title: "Multi-tenant SaaS Backend",
-      description: "Built scalable multi-tenant architecture supporting 500+ enterprise clients. Designed efficient data isolation, automated provisioning, and comprehensive monitoring.",
+      title: "E-Commerce Platform APIs",
+      description: "Built and maintained high-performance microservices for a large-scale e-commerce platform, improving API response times by 40% and supporting over 500K transactions per day with zero downtime.",
+      icon: Database,
+      technologies: ["Java", "Spring Boot", "REST", "Hibernate", "PostgreSQL", "Git"],
+      highlights: ["40% faster response times", "500K+ transactions/day", "Zero downtime"],
+      type: "E-Commerce"
+    },
+    {
+      title: "Push Notification Service",
+      description: "Designed and implemented a push notification module using Firebase Cloud Messaging, enabling real-time transactional alerts and promotional campaigns. Improved delivery reliability by 90%.",
+      icon: Zap,
+      technologies: ["Java", "Spring Boot", "Google Firebase", "REST", "OAuth2"],
+      highlights: ["90% delivery reliability", "35% SMS cost reduction", "Real-time alerts"],
+      type: "Mobile Services"
+    },
+    {
+      title: "API Proxy Management",
+      description: "Designed, developed, and maintained API proxies on Apigee Edge, reducing API latency by 35% and improving system security compliance by 40%. Managed enterprise-level API integration.",
       icon: Cloud,
-      technologies: ["Java", "Spring Boot", "MongoDB", "RabbitMQ", "Terraform"],
-      highlights: ["500+ enterprise clients", "Automated tenant provisioning", "Cost optimization"],
-      type: "SaaS"
+      technologies: ["Apigee Edge", "JavaScript", "OAuth", "API Security"],
+      highlights: ["35% latency reduction", "40% security improvement", "Enterprise integration"],
+      type: "API Management"
     }
   ];
 
