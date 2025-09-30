@@ -53,7 +53,7 @@ export const Navigation = () => {
             className="text-xl font-bold bg-gradient-accent bg-clip-text text-transparent cursor-pointer"
             onClick={() => scrollToSection("hero")}
           >
-            Alex Johnson
+            José David Colmán
           </div>
 
           {/* Desktop Navigation */}
