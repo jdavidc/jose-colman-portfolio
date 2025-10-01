@@ -35,7 +35,7 @@ export const Hero = () => {
             asChild
           >
             <a 
-              href="https://api.whatsapp.com/send/?phone=595971787278&text=Hi%20Jos%C3%A9!%20I%27m%20interested%20in%20discussing%20a%20potential%20opportunity%20with%20you."
+              href="https://wa.me/595971787278?text=Hi%20José!%20I'm%20interested%20in%20discussing%20a%20potential%20opportunity%20with%20you."
               target="_blank"
               rel="noopener noreferrer"
             >
