@@ -32,7 +32,7 @@ export const Skills = () => {
   return (
     <section id="skills" className="py-20 px-6 bg-secondary/30">
       <div className="max-w-6xl mx-auto">
-        <div className="text-center mb-16">
+        <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-accent bg-clip-text text-transparent">
             Technical Skills
           </h2>
@@ -45,7 +45,8 @@ export const Skills = () => {
           {skillCategories.map((category, index) => (
             <Card 
               key={index}
-              className="p-6 bg-gradient-card border-primary/20 hover:border-primary/40 transition-all duration-300 hover:shadow-glow-accent group"
+              className="p-6 bg-gradient-card border-primary/20 hover:border-primary/40 transition-all duration-300 hover:shadow-glow-accent hover:scale-105 group animate-fade-in"
+              style={{ animationDelay: `${index * 100}ms` }}
             >
               <h3 className="text-xl font-bold mb-4 text-foreground group-hover:text-primary transition-colors">
                 {category.title}
@@ -66,7 +67,7 @@ export const Skills = () => {
         </div>
 
         {/* Additional Expertise */}
-        <div className="mt-16 text-center">
+        <div className="mt-16 text-center animate-fade-in" style={{ animationDelay: '400ms' }}>
           <h3 className="text-2xl font-bold mb-8 text-foreground">Core Expertise</h3>
           <div className="flex flex-wrap justify-center gap-3 max-w-4xl mx-auto">
             {[
@@ -85,7 +86,8 @@ export const Skills = () => {
             ].map((expertise, index) => (
               <Badge 
                 key={index}
-                className="bg-accent/10 text-accent border-accent/30 hover:bg-accent/20 hover:border-accent/50 transition-all duration-200 px-4 py-2 text-sm cursor-default"
+                className="bg-accent/10 text-accent border-accent/30 hover:bg-accent/20 hover:border-accent/50 hover:scale-110 transition-all duration-200 px-4 py-2 text-sm cursor-default animate-fade-in"
+                style={{ animationDelay: `${500 + index * 50}ms` }}
               >
                 {expertise}
               </Badge>

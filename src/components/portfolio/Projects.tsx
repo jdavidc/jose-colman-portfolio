@@ -42,7 +42,7 @@ export const Projects = () => {
   return (
     <section id="projects" className="py-20 px-6">
       <div className="max-w-6xl mx-auto">
-        <div className="text-center mb-16">
+        <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-accent bg-clip-text text-transparent">
             Featured Projects
           </h2>
@@ -58,7 +58,8 @@ export const Projects = () => {
             return (
               <Card 
                 key={index}
-                className="p-8 bg-gradient-card border-primary/20 hover:border-primary/40 transition-all duration-300 hover:shadow-glow-accent group"
+                className="p-8 bg-gradient-card border-primary/20 hover:border-primary/40 transition-all duration-300 hover:shadow-glow-accent hover:scale-105 group animate-fade-in"
+                style={{ animationDelay: `${index * 150}ms` }}
               >
                 <div className="flex items-start justify-between mb-4">
                   <div className="flex items-center gap-3">

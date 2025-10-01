@@ -8,7 +8,7 @@ export const Contact = () => {
   return (
     <section id="contact" className="py-20 px-6 bg-secondary/30">
       <div className="max-w-6xl mx-auto">
-        <div className="text-center mb-16">
+        <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-accent bg-clip-text text-transparent">
             Let's Work Together
           </h2>
@@ -20,7 +20,7 @@ export const Contact = () => {
 
         <div className="grid md:grid-cols-2 gap-12">
           {/* Contact Info */}
-          <div className="space-y-8">
+          <div className="space-y-8 animate-fade-in" style={{ animationDelay: '100ms' }}>
             <div>
               <h3 className="text-2xl font-bold mb-6 text-foreground">Get In Touch</h3>
               <p className="text-muted-foreground mb-8">
@@ -31,7 +31,7 @@ export const Contact = () => {
             </div>
 
             <div className="space-y-6">
-              <Card className="p-4 bg-gradient-card border-primary/20 hover:border-primary/40 transition-all duration-300">
+              <Card className="p-4 bg-gradient-card border-primary/20 hover:border-primary/40 hover:scale-105 transition-all duration-300 animate-fade-in" style={{ animationDelay: '200ms' }}>
                 <div className="flex items-center gap-4">
                   <div className="p-3 rounded-lg bg-primary/10 text-primary">
                     <Mail className="h-5 w-5" />
@@ -43,7 +43,7 @@ export const Contact = () => {
                 </div>
               </Card>
 
-              <Card className="p-4 bg-gradient-card border-primary/20 hover:border-primary/40 transition-all duration-300">
+              <Card className="p-4 bg-gradient-card border-primary/20 hover:border-primary/40 hover:scale-105 transition-all duration-300 animate-fade-in" style={{ animationDelay: '300ms' }}>
                 <div className="flex items-center gap-4">
                   <div className="p-3 rounded-lg bg-primary/10 text-primary">
                     <Phone className="h-5 w-5" />
@@ -55,7 +55,7 @@ export const Contact = () => {
                 </div>
               </Card>
 
-              <Card className="p-4 bg-gradient-card border-primary/20 hover:border-primary/40 transition-all duration-300">
+              <Card className="p-4 bg-gradient-card border-primary/20 hover:border-primary/40 hover:scale-105 transition-all duration-300 animate-fade-in" style={{ animationDelay: '400ms' }}>
                 <div className="flex items-center gap-4">
                   <div className="p-3 rounded-lg bg-primary/10 text-primary">
                     <MapPin className="h-5 w-5" />
@@ -69,7 +69,7 @@ export const Contact = () => {
             </div>
 
             {/* Availability */}
-            <Card className="p-6 bg-gradient-card border-accent/20">
+            <Card className="p-6 bg-gradient-card border-accent/20 animate-fade-in" style={{ animationDelay: '500ms' }}>
               <h4 className="font-semibold text-foreground mb-3">Current Availability</h4>
               <div className="flex items-center gap-2 mb-2">
                 <div className="w-2 h-2 rounded-full bg-green-500" />
@@ -83,7 +83,7 @@ export const Contact = () => {
           </div>
 
           {/* Contact Form */}
-          <Card className="p-8 bg-gradient-card border-primary/20">
+          <Card className="p-8 bg-gradient-card border-primary/20 animate-fade-in" style={{ animationDelay: '200ms' }}>
             <h3 className="text-2xl font-bold mb-6 text-foreground">Send a Message</h3>
             <form className="space-y-6">
               <div className="grid md:grid-cols-2 gap-4">

@@ -29,7 +29,7 @@ export const About = () => {
   return (
     <section id="about" className="py-20 px-6">
       <div className="max-w-6xl mx-auto">
-        <div className="text-center mb-16">
+        <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-accent bg-clip-text text-transparent">
             About Me
           </h2>
@@ -40,7 +40,7 @@ export const About = () => {
         </div>
 
         <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
-          <div>
+          <div className="animate-fade-in delay-100">
             <h3 className="text-2xl font-bold mb-6 text-foreground">My Journey</h3>
             <div className="space-y-4 text-muted-foreground">
               <p>
@@ -61,7 +61,7 @@ export const About = () => {
             </div>
           </div>
 
-          <div className="space-y-4">
+          <div className="space-y-4 animate-fade-in delay-200">
             <h3 className="text-2xl font-bold mb-6 text-foreground">What I Bring</h3>
             <div className="grid gap-4">
               {highlights.map((item, index) => {
@@ -69,7 +69,8 @@ export const About = () => {
                 return (
                   <Card 
                     key={index} 
-                    className="p-4 bg-gradient-card border-primary/20 hover:border-primary/40 transition-all duration-300 hover:shadow-glow-accent"
+                    className="p-4 bg-gradient-card border-primary/20 hover:border-primary/40 transition-all duration-300 hover:shadow-glow-accent hover:scale-105 animate-fade-in"
+                    style={{ animationDelay: `${300 + index * 100}ms` }}
                   >
                     <div className="flex items-start gap-3">
                       <div className="p-2 rounded-lg bg-primary/10 text-primary">
@@ -89,20 +90,20 @@ export const About = () => {
 
         {/* Stats */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-          <div className="text-center">
-            <div className="text-3xl md:text-4xl font-bold text-primary mb-2">10+</div>
+          <div className="text-center animate-fade-in" style={{ animationDelay: '500ms' }}>
+            <div className="text-3xl md:text-4xl font-bold text-primary mb-2 hover:scale-110 transition-transform duration-300">10+</div>
             <div className="text-muted-foreground">Years Experience</div>
           </div>
-          <div className="text-center">
-            <div className="text-3xl md:text-4xl font-bold text-primary mb-2">500K+</div>
+          <div className="text-center animate-fade-in" style={{ animationDelay: '600ms' }}>
+            <div className="text-3xl md:text-4xl font-bold text-primary mb-2 hover:scale-110 transition-transform duration-300">500K+</div>
             <div className="text-muted-foreground">Transactions/Day</div>
           </div>
-          <div className="text-center">
-            <div className="text-3xl md:text-4xl font-bold text-primary mb-2">65%</div>
+          <div className="text-center animate-fade-in" style={{ animationDelay: '700ms' }}>
+            <div className="text-3xl md:text-4xl font-bold text-primary mb-2 hover:scale-110 transition-transform duration-300">65%</div>
             <div className="text-muted-foreground">Fraud Reduction</div>
           </div>
-          <div className="text-center">
-            <div className="text-3xl md:text-4xl font-bold text-primary mb-2">99.9%</div>
+          <div className="text-center animate-fade-in" style={{ animationDelay: '800ms' }}>
+            <div className="text-3xl md:text-4xl font-bold text-primary mb-2 hover:scale-110 transition-transform duration-300">99.9%</div>
             <div className="text-muted-foreground">Uptime Achieved</div>
           </div>
         </div>
