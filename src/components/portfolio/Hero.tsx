@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Github, Linkedin, Mail, Download } from "lucide-react";
+import { Github, Linkedin, Mail, Download, MessageCircle } from "lucide-react";
 import heroBackground from "@/assets/hero-background.jpg";
 
 export const Hero = () => {
@@ -32,9 +32,16 @@ export const Hero = () => {
           <Button 
             size="lg" 
             className="bg-gradient-accent hover:shadow-glow-primary transition-all duration-300 px-8 py-3 text-lg font-semibold"
+            asChild
           >
-            <Mail className="mr-2 h-5 w-5" />
-            Get In Touch
+            <a 
+              href="https://api.whatsapp.com/send/?phone=595971787278&text=Hi%20Jos%C3%A9!%20I%27m%20interested%20in%20discussing%20a%20potential%20opportunity%20with%20you."
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <MessageCircle className="mr-2 h-5 w-5" />
+              Get In Touch
+            </a>
           </Button>
           <Button 
             variant="outline" 
