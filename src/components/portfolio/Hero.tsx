@@ -40,9 +40,17 @@ export const Hero = () => {
             variant="outline" 
             size="lg"
             className="border-primary/30 hover:border-primary hover:bg-primary/10 hover:shadow-glow-accent transition-all duration-300 px-8 py-3 text-lg"
+            asChild
           >
-            <Download className="mr-2 h-5 w-5" />
-            Download Resume
+            <a 
+              href="https://github.com/jdavidc/jdavidc/raw/main/Jos%C3%A9%20Colm%C3%A1n%20CV%202025.pdf"
+              download="José_Colmán_CV_2025.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Download className="mr-2 h-5 w-5" />
+              Download Resume
+            </a>
           </Button>
         </div>
 
